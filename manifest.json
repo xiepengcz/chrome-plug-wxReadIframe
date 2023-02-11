@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "微信读书左侧笔记",
-  "description": "微信读书左侧笔记",
+  "name": "左侧笔记",
+  "description": "左侧笔记",
   "version": "1.0",
   "action": {
     "default_popup": "hello.html",
@@ -13,7 +13,7 @@
         "scripts/content.js"
       ],
       // "matches": ["<all_urls>"]
-      "matches": ["https://weread.qq.com/web/reader/*"]
+      "matches": ["https://weread.qq.com/web/reader/*","https://time.geekbang.org/column/article/*"]
     }
   ]
 }

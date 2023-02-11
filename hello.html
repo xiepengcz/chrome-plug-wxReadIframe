@@ -1,6 +1,39 @@
-<html>
-  <body>
-    <h1>Hello Extensions</h1>
-    <!-- <script src="popup.js"></script> -->
-  </body>
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./popup.css" />
+</head>
+
+<body>
+  <template id="li_template">
+    <li>
+      <a>
+        <h3 class="title">Tab Title</h3>
+        <p class="pathname">Tab Pathname</p>
+      </a>
+    </li>
+  </template>
+
+  <input type="text" id="url" placeholder="请输入要展示的url">
+  <button id="confirm">确定</button>
+  <h1>Google Dev Docs</h1>
+  <button>Group Tabs</button>
+  <ul></ul>
+
+  <script src="./popup.js" type="module"></script>
+  <!-- <script>
+    let input = document.querySelector('#url');
+    input.value = localStorage.getItem('rdUrl')
+    let btn = document.querySelector('#confirm')
+    btn.onclick = function () { 
+      document.querySelector('#iframe1').src = input.value
+      localStorage.setItem('rdUrl',input.value)
+    }
+  </script> -->
+</body>
+
 </html>
