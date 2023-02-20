@@ -72,7 +72,7 @@ window.onload = (event) => {
         <div style="display:flex">
         <input type="text" id="url" style="flex:1" placeholder="请输入要展示的url"><button style="padding:0 10px;background:red" id="confirm">确 定</button>
         </div>
-      <iframe id="iframe1" name="iframe1" style="width:1100px;height:100%;position:fixed;top:20px" src="${rdUlr}">
+      <iframe id="iframe1" name="iframe1" style="width:1100px;height:97%;position:fixed;top:20px" src="${rdUlr}">
       </div>`;
         jkRead.insertAdjacentHTML("afterbegin", ht);
         let input = document.querySelector("#url");
